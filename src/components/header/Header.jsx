@@ -5,6 +5,7 @@ import { FiDribbble } from "react-icons/fi";
 import { SiLeetcode } from "react-icons/si";
 import resume from '../../assets/resume.pdf'
 import svg from '../../assets/software-engineer.svg'
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -40,9 +41,9 @@ const Header = () => {
           <img src={svg} alt="" />
         </div>
 
-        <a href="#contact" className="scroll-down">
+        <Link to="/contact" className="scroll-down">
           <span className="Krishna">Contact Me</span>
-        </a>
+        </Link>
       </div>
     </header>
   );
