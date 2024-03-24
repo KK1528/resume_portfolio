@@ -1,10 +1,9 @@
 import { BsPatchCheckFill } from 'react-icons/bs';
 import './experience.css';
-import { motion } from 'framer-motion';
 
 const Experience = () => {
   return (
-    <section  id='experience'>
+    <section className='kk' id='experience'>
       <div className='cont'>
         <h5>What Skills I Have</h5>
         <h2 style={{textAlign: 'center'}}>My Skills</h2>
@@ -15,21 +14,7 @@ const Experience = () => {
           <div className="experience-frontend">
             <h3>Web Development</h3>
             <div className="experience-content">
-              <article className='experience-details'>
-                <BsPatchCheckFill className='experience-detail-icon' />
-                <div>
-                  <h4>HTML</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className='experience-details'>
-                <BsPatchCheckFill className='experience-detail-icon' />
-                <div>
-                  <h4>CSS</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
+              
 
               <article className='experience-details'>
                 <BsPatchCheckFill className='experience-detail-icon' />
@@ -51,14 +36,6 @@ const Experience = () => {
                 <BsPatchCheckFill className='experience-detail-icon' />
                 <div>
                   <h4>Styled-component</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-
-              <article className='experience-details'>
-                <BsPatchCheckFill className='experience-detail-icon' />
-                <div>
-                  <h4>Javascript</h4>
                   <small className="text-light">Experienced</small>
                 </div>
               </article>
@@ -149,6 +126,31 @@ const Experience = () => {
                 <div>
                   <h4>C++</h4>
                   <small className="text-light">Basics</small>
+                </div>
+              </article>
+
+
+              <article className='experience-details'>
+                <BsPatchCheckFill className='experience-detail-icon' />
+                <div>
+                  <h4>Javascript</h4>
+                  <small className="text-light">Experienced</small>
+                </div>
+              </article>
+
+              <article className='experience-details'>
+                <BsPatchCheckFill className='experience-detail-icon' />
+                <div>
+                  <h4>HTML</h4>
+                  <small className="text-light">Experienced</small>
+                </div>
+              </article>
+
+              <article className='experience-details'>
+                <BsPatchCheckFill className='experience-detail-icon' />
+                <div>
+                  <h4>CSS</h4>
+                  <small className="text-light">Experienced</small>
                 </div>
               </article>
               

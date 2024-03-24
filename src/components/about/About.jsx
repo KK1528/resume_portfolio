@@ -1,6 +1,7 @@
 import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -45,9 +46,9 @@ const About = () => {
             your digital vision to life.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <Link to="/contact" className="btn btn-primary">
             Let's Talk
-          </a>
+          </Link>
         </div>
       </div>
     </section>

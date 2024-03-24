@@ -2,6 +2,7 @@
     width: 58%;
     display: grid;
     gap: 12%;
+    height: 40vh;
 }
 .cont{
     height: 20vh;
