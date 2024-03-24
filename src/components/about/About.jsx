@@ -34,16 +34,11 @@ const About = () => {
           </div>
 
           <p style={{ textAlign: "justify" }}>
-            I'm a dedicated frontend developer with a passion for transforming
-            the web into a more beautiful and user-friendly digital place. My
-            journey started with a Bachelor's degree in Biochemistry, where I
-            graduated with first-class honors, a testament to my commitment to
-            excellence. My work is a blend of creativity and functionality. I
-            thrive on crafting elegant, responsive websites that not only look
-            great but also deliver exceptional performance. I'm committed to
-            staying up-to-date with the latest industry trends to ensure each
-            project meets the highest standards. Let's collaborate and bring
-            your digital vision to life.
+          I'm Software/Web developer, I'm on a mission to revolutionize the digital landscape, making it more captivating and user-friendly. My journey began with a Bachelor's degree in Electronics and Communication Engineering from Malaviya National Institute of Technology Jaipur, a testament to my unwavering commitment to excellence.
+
+My approach to work is a fusion of creativity and functionality. I thrive on crafting visually stunning and highly responsive websites that not only dazzle the eye but also deliver exceptional performance. I am deeply committed to keeping pace with the latest industry trends, ensuring that each project I undertake meets and exceeds the highest standards.
+
+Let's join forces and breathe life into your digital vision together.
           </p>
 
           <Link to="/contact" className="btn btn-primary">

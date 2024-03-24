@@ -4,13 +4,41 @@
     gap: 2.5rem;
 }
 
+.krishna{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.h5{
+    font-size: 1.5rem;
+}
+
+.h2{
+    font-size: 3rem;
+}
+
+.item{
+    margin-top: 5rem;
+    display: flex;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .portfolio-item {
     background: var(--color-bg-variant);
     padding: 1.2rem;
+    width: 20rem;
     height: 30rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
 }
 
 .portfolio-item:hover {
@@ -23,14 +51,16 @@
     height: 12rem;
 }
 
-.portfolio-item h3 {
-    margin: 1.2rem 0 2rem;
+.portfolio-item h3{
+    font-display: bold;
+    margin-top: 1.2rem ;
 }
 
 .portfolio-item-cta {
     display: flex;
     gap: 1rem;
-    /* margin-bottom: 1rem; */
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 

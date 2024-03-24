@@ -4,9 +4,9 @@ import './experience.css';
 const Experience = () => {
   return (
     <section className='kk' id='experience'>
-      <div className='cont'>
-        <h5>What Skills I Have</h5>
-        <h2 style={{textAlign: 'center'}}>My Skills</h2>
+      <div className='krishna'>
+        <h5 className='h5'>What Skills I Have</h5>
+        <h2 className='h2' style={{textAlign: 'center'}}>My Skills</h2>
       </div>
 
       <div className="container experience-container">

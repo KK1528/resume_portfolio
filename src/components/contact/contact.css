@@ -1,18 +1,21 @@
 .container.contact-container {
     width: 58%;
     display: grid;
-    gap: 12%;
-    height: 40vh;
+    gap: 5%;
+    height: 38vh;
 }
-.cont{
-    height: 20vh;
+.krishna1{
+    margin-top: 4rem;
 }
-.cont h5{
-    font-size: 2rem;
+
+
+
+.h5{
+    font-size: 1.5rem;
 }
-.cont h2{
-    font-size: 4rem;
-    margin-bottom: 2rem;
+
+.h2{
+    font-size: 3rem;
 }
 
 .contact-option {
@@ -23,7 +26,7 @@
     border: 1px solid transparent;
     transition: var(--transition);
     word-break: break-all;
-    margin: 10px 0px; /* Added margin */
+    margin: 2rem 2rem; /* Added margin */
 }
 
 .contact-option:hover {
@@ -33,7 +36,7 @@
 
 .contact-option-icon {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 3rem;
 }
 
 .contact-option h4, /* Changed from h5 to h4 */

@@ -1,12 +1,16 @@
-.cont{
-    height: 15vh;
+.krishna{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
-.cont h2{
-    font-size: 3rem;
+
+
+.h5{
+    font-size: 1.5rem;
 }
-.cont h5{
-    font-size: 1rem;
+
+.h2{
+    font-size: 3rem;
 }
 
 .experience-container {
