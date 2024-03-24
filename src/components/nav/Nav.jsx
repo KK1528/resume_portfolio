@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
+import { GrProjects } from "react-icons/gr";
 import { BiMessageSquareDetail } from 'react-icons/bi';
 import './nav.css';
 import { useState } from 'react';
@@ -23,7 +23,7 @@ const Nav = () => {
         <BiBook />
       </Link>
       <Link to="/portfolio" onClick={() => setActiveNav('/services')} className={activeNav === '/services' ? 'active' : ''}>
-        <RiServiceLine />
+        <GrProjects />
       </Link>
       <Link to="/contact" onClick={() => setActiveNav('/portfolio')} className={activeNav === '/portfolio' ? 'active' : ''}>
         <BiMessageSquareDetail />
