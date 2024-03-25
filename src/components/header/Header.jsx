@@ -20,19 +20,19 @@ const Header = () => {
         </div>
 
         <div className="header-socials">
-          <a href="https://leetcode.com/krishna1528/" target="_blank">
+          <a href="https://leetcode.com/krishna1528/" target="_blank" rel="noreferrer">
             <SiLeetcode />
           </a>
           <a
             href="https://www.linkedin.com/in/krishna-karodiwal-00203b224/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <BsLinkedin />
           </a>
-          <a href="https://github.com/kk1528" target="_blank">
+          <a href="https://github.com/kk1528" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          <a href="#" target="_blank">
+          <a href="/" target="_blank" rel="noreferrer">
             <FiDribbble />
           </a>
         </div>

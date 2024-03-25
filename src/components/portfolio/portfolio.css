@@ -46,6 +46,19 @@
     background: transparent;
 }
 
+.portfolio-item p {
+    /* Set line height to control the number of lines */
+    line-height: 1.5; /* Adjust as needed to fit four lines */
+    /* Limit the maximum height to ensure it displays only four lines */
+    max-height: 6em; /* Assuming each line is 1.5em high (4 lines * 1.5em) */
+    /* Allow text to wrap within the container */
+    overflow-y: scroll;
+    text-overflow: ellipsis; /* Display an ellipsis (...) for overflowed text */
+    white-space: normal; /* Allow text to wrap within the container */
+}
+
+
+
 .portfolio-item-image img {
     border-radius: 1.5rem;
     height: 12rem;

@@ -2,6 +2,7 @@ import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { Link } from 'react-router-dom';
+import me from '../../assets/me.jpg'
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
       <div className="container about-container">
         <div className="about-me">
           <div className="about-me-image">
-            {/* <img src={} alt="about me image" />  i need to add my image here*/}
+            <img src={me} alt="about me image" /> 
           </div>
         </div>
 

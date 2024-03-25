@@ -1,5 +1,6 @@
 import './portfolio.css';
 import snake from '../../assets/bg.jpg';
+import Food_Recipe from '../../assets/food.jpg';
 
 const data = [
   {
@@ -12,11 +13,11 @@ const data = [
   },
   {
     id: 2,
-    image: snake,
-    title: 'Snake-game',
-    body: 'Slither through the pixels and devour your way to victory in this JavaScript-powered snake game sensation.',
-    github: 'https://github.com/KK1528/Snake-Game',
-    demo: 'https://kk1528.github.io/Snake-Game/',
+    image: Food_Recipe ,
+    title: 'Food Recipe Search',
+    body:'Discover endless culinary possibilities with our recipe tool—simply input an ingredient and unlock a world of dishes tailored to your taste.',
+    github: 'https://github.com/KK1528/Food-Receipe-Search-Tool',
+    demo: 'https://kk1528.github.io/Food-Receipe-Search-Tool/',
   },
   {
     id: 3,
