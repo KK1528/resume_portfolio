@@ -1,6 +1,7 @@
 import './portfolio.css';
 import snake from '../../assets/bg.jpg';
 import Food_Recipe from '../../assets/food.jpg';
+import Notepad from '../../assets/notepad.jpg';
 
 const data = [
   {
@@ -21,11 +22,11 @@ const data = [
   },
   {
     id: 3,
-    image: snake,
-    title: 'Snake-game',
-    body: 'Slither through the pixels and devour your way to victory in this JavaScript-powered snake game sensation.',
-    github: 'https://github.com/KK1528/Snake-Game',
-    demo: 'https://kk1528.github.io/Snake-Game/',
+    image: Notepad,
+    title: 'Notepad',
+    body: 'Keeper Notepad: Keeps your notes secure until deletion.',
+    github: 'https://github.com/KK1528/Keeper-Notepad',
+    demo: 'https://kk1528-notepad.vercel.app/',
   },
   {
     id: 4,
