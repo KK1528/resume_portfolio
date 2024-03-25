@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/resume_portfolio/static/css/main.c4ee0649.css",
+    "main.js": "/resume_portfolio/static/js/main.3b215d31.js",
+    "static/media/bg.jpg": "/resume_portfolio/static/media/bg.ca71855e59385066f45d.jpg",
+    "static/media/resume.pdf": "/resume_portfolio/static/media/resume.48da9ddbec84bb7369f2.pdf",
+    "static/media/software-engineer.svg": "/resume_portfolio/static/media/software-engineer.376cd131d3231bee1d1967676e15a769.svg",
+    "index.html": "/resume_portfolio/index.html",
+    "main.c4ee0649.css.map": "/resume_portfolio/static/css/main.c4ee0649.css.map",
+    "main.3b215d31.js.map": "/resume_portfolio/static/js/main.3b215d31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4ee0649.css",
+    "static/js/main.3b215d31.js"
+  ]
+}
