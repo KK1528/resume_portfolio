@@ -32,7 +32,7 @@ const Header = () => {
           <a href="https://github.com/kk1528" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          <a href="/" target="_blank" rel="noreferrer">
+          <a href="https://kk1528-portfolio.netlify.app/" target="_blank" rel="noreferrer">
             <FiDribbble />
           </a>
         </div>
