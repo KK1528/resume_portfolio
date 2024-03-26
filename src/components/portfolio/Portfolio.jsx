@@ -28,22 +28,6 @@ const data = [
     github: 'https://github.com/KK1528/Keeper-Notepad',
     demo: 'https://kk1528-notepad.vercel.app/',
   },
-  {
-    id: 4,
-    image: snake,
-    title: 'Snake-game',
-    body: 'Slither through the pixels and devour your way to victory in this JavaScript-powered snake game sensation.',
-    github: 'https://github.com/KK1528/Snake-Game',
-    demo: 'https://kk1528.github.io/Snake-Game/',
-  },
-  {
-    id: 5,
-    image: snake,
-    title: 'Snake-game',
-    body: 'Slither through the pixels and devour your way to victory in this JavaScript-powered snake game sensation.',
-    github: 'https://github.com/KK1528/Snake-Game',
-    demo: 'https://kk1528.github.io/Snake-Game/',
-  },
 ];
 
 const Portfolio = () => {
